@@ -16,6 +16,7 @@ def main():
         # rename the original file
         
         # now put things into a ZIP archive
+        t=1
 
         # more fine-grained control over ZIP files
 

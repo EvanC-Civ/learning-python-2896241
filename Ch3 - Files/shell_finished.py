@@ -24,7 +24,8 @@ def main():
         os.rename("textfile.txt", "newfile.txt")
         
         # now put things into a ZIP archive
-        root_dir,tail = path.split(src)
+        #root_dir,tail = path.split(src)
+        root_dir,_ = path.split(src)
         shutil.make_archive("archive", "zip", root_dir)
 
         # more fine-grained control over ZIP files
